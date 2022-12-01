@@ -1,0 +1,2 @@
+*.caffemodel filter=lfs diff=lfs merge=lfs -text
+web filter=lfs diff=lfs merge=lfs -text
