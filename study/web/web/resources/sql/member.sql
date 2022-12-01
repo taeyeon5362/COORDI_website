@@ -12,3 +12,5 @@ CREATE TABLE member (
     PRIMARY KEY (id)
 ) default CHARSET=utf8;
 
+TRUNCATE member;
+

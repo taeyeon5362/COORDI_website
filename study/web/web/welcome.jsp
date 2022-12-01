@@ -31,7 +31,7 @@
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./resources/resource/wedding.png');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Wedding Look</h3>
-                        <a href="./wedding.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
+                        <a href="wedding.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
                         <ul class="d-flex list-unstyled mt-auto"></ul>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./resources/resource/date.png');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Date Look</h3>
-                        <a href="./date.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
+                        <a href="date.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
                         <ul class="d-flex list-unstyled mt-auto"></ul>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./resources/resource/party.png');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                         <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Party Dress</h3>
-                        <a href="./party.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
+                        <a href="party.jsp" class="nav-link fw-bold text-center" style="color: white">CLICK</a>
                         <ul class="d-flex list-unstyled mt-auto"></ul>
                     </div>
                 </div>

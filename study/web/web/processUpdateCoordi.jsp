@@ -6,7 +6,7 @@
 <%@ include file="dbconn.jsp"%>
 <%
     String filename = "";
-    String realFolder = "/Users/gimtaeyeon/study/web/web/market/resources/images";
+    String realFolder = "/Users/gimtaeyeon/study/web/web/resources/images";
     int maxSize = 10 * 1024 * 1024; //최대 업로드 크기(10M)
     String encType = "utf-8";  //인코딩 유형
 

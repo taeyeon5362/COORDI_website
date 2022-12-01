@@ -19,7 +19,7 @@
         <div class="col-md-5 col-md-offset-4">
             <h3 class="form-signin-headding">Please sign in</h3>
 
-            <form class="form-signin" action="./processLoginMember.jsp" method="POST">
+            <form class="form-signin" action="processLoginMember.jsp" method="POST">
                 <div class="form-group">
                     <label for="inputUserName" class="sr-only">User Name</label>
                     <input type="text" class="form-control" placeholder="아이디" name="user_id" required autofocus/>

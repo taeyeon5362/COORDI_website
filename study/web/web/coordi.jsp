@@ -40,7 +40,7 @@
                 <p> <b>코드 : </b> <span class="badge badge-primary"><%=rs.getString("c_id")%></span></p>
                 <p> <b>온도 : </b> <%=rs.getString("c_temperature")%>℃
                 <p> <b>날짜 : </b> <%=rs.getString("c_releaseDate")%></p>
-                    <a href="./coordis.jsp" class="btn btn-secondary">코디목록 &raquo;</a>
+                    <a href="coordis.jsp" class="btn btn-secondary">코디목록 &raquo;</a>
                 </p>
             </div>
             <%

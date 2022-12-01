@@ -8,7 +8,7 @@
 %>
 
 <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #F2EDD7;">
-	<a href="./welcome.jsp" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none" style="color: #755139">
+	<a href="welcome.jsp" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none" style="color: #755139">
 		<span class="fs-5 fw-bold ">&nbsp;&nbsp;HOME</span>
 	</a>
 			<%
@@ -52,22 +52,22 @@
 				}
 				if(user_id == null ) {
 			%>
-				<a class="nav-link py-2" style="color: #755139" href="<c:url value="./loginMember.jsp"/>"><span class="fs-6">SIGN IN&nbsp;&nbsp;</span></a>
-				<a class="nav-link py-2" style="color: #755139" href="<c:url value="./addMember.jsp"/>"><span class="fs-6">&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+				<a class="nav-link py-2" style="color: #755139" href="<c:url value="loginMember.jsp"/>"><span class="fs-6">SIGN IN&nbsp;&nbsp;</span></a>
+				<a class="nav-link py-2" style="color: #755139" href="<c:url value="addMember.jsp"/>"><span class="fs-6">&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
 			<%
 				} else {
 			%>
 				<li style="padding-top: 7px; color: #755139">[<%=user_id%>님] <%=msg%></li>
-				<a class="nav-link py-2" style="color: #755139" href="<c:url value="./logoutMember.jsp"/>"><span class="fs-6">&nbsp;&nbsp;SIGN OUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+				<a class="nav-link py-2" style="color: #755139" href="<c:url value="logoutMember.jsp"/>"><span class="fs-6">&nbsp;&nbsp;SIGN OUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
 			<%
 				}
 			%>
 
 	<ul class="nav nav-pills">
-		<li class="nav-item"><a href="./temperature.jsp" class="nav-link" style="color: #755139">TEMPERATURE</a></li>
-		<li class="nav-item"><a href="./coordis.jsp" class="nav-link" style="color: #755139">COORDI&nbsp;&nbsp;</a></li>
-		<li class="nav-item"><a href="./addCoordi.jsp" class="nav-link" style="color: #755139">ADD COORDI</a></li>
-		<li class="nav-item"><a href="./editCoordi.jsp?edit=update" class="nav-link" style="color: #755139">EDIT COORDI</a></li>
+		<li class="nav-item"><a href="temperature.jsp" class="nav-link" style="color: #755139">TEMPERATURE</a></li>
+		<li class="nav-item"><a href="coordis.jsp" class="nav-link" style="color: #755139">COORDI&nbsp;&nbsp;</a></li>
+		<li class="nav-item"><a href="addCoordi.jsp" class="nav-link" style="color: #755139">ADD COORDI</a></li>
+		<li class="nav-item"><a href="editCoordi.jsp?edit=update" class="nav-link" style="color: #755139">EDIT COORDI</a></li>
 	</ul>
 </header>
 

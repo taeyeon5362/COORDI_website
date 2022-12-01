@@ -25,7 +25,7 @@
             <a href="?language=ko" >Korean</a>&nbsp;|&nbsp;<a href="?language=en">English</a>
             <a href="logout.jsp" class="btn btn-sm btn-success pull-reight">&nbsp;logout</a>
         </div>
-        <form name="newCoordi" action="./processAddCoordi.jsp" enctype="multipart/form-data" class="form-horizontal" method="post">
+        <form name="newCoordi" action="processAddCoordi.jsp" enctype="multipart/form-data" class="form-horizontal" method="post">
             <div class="form-group row">
                 <label class="col-sm-2"><fmt:message key="coordiId"/></label>
                 <div class="col-sm-3">

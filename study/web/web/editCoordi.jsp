@@ -45,7 +45,7 @@
                 <%
                     if(edit.equals("update")) {
                 %>
-                <a href="./updateCoordi.jsp?id=<%=rs.getString("c_id")%>" class="btn btn-secondary" role="button"> 수정 &raquo;></a>
+                <a href="updateCoordi.jsp?id=<%=rs.getString("c_id")%>" class="btn btn-secondary" role="button"> 수정 &raquo;></a>
             </div>
             <hr>
             <%

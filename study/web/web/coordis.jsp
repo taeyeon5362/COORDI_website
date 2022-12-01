@@ -38,7 +38,7 @@
 				<p><%=rs.getString("c_description")%>
 			</div>
 			<div class="col-md-3">
-				<a href="./coordi.jsp?id=<%=rs.getString("c_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
+				<a href="coordi.jsp?id=<%=rs.getString("c_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
 			</div>
 			<hr>
 			<%
