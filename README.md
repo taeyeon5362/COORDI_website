@@ -2,6 +2,15 @@
 
 사람들에게 기온별, 상황별, 날짜별 옷차림을 추천해주는 웹이다.
 
+## 시스템 구조
+![Captum](./img/system.png)
+
+## 시퀀스 다이어그램
+![Captum](./img/sequence.png)
+
+## 데이터베이스 구조
+![Captum](./img/database.png)
+
 ## 1. 회원가입, 로그인, 로그아웃
 
 ![Captum](./img/signup.png)
