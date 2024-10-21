@@ -32,7 +32,6 @@
 - resultMember.jsp?msg=3를 활용해 로그아웃 메시지 출력
 
 
-
 ## 2. 추가 및 수정
 
 ![Captum](./img/coordiadd.png)
