@@ -11,9 +11,12 @@
 ## 데이터베이스 구조
 ![Captum](./img/database.png)
 
+### prototype
+![Captum](./img/prototype_1.png)
+![Captum](./img/prototype_2.png)
+
 ## main 화면
 ![Captum](./img/main.png)
-
 
 ## 1. 회원가입, 로그인, 로그아웃
 
